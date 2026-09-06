@@ -11,7 +11,7 @@ const STAGES = {
 const SHIPMENTS = {
   "1569852359": {
     status: "transit",
-    service: "ParcelPath Ground",
+    service: "ParcelPath",
     from: "Guangzhou, China",
     to: " United Kingdom",
     address: "19 Beachfield Rd, Sandown PO36 8LR",
