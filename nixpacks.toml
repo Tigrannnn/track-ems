@@ -4,5 +4,9 @@ providers = ["python"]
 [build.variables]
 NIXPACKS_PYTHON_VERSION = "3.11"
 
+[[build.phases.custom-setup]]
+name = "remove-staticfile"
+commands = ["rm -f Staticfile"]
+
 [start]
 cmd = "python3 serve.py"
