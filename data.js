@@ -23,5 +23,20 @@ const SHIPMENTS = {
       ["Sep 5, 2026 · ", "Picked up from shipper",                               "Guangzhou, China"],
       ["Sep 4, 2026 · ", "Label created - shipment information received ",       "Guangzhou, China"]
     ]
+  },
+
+  "3698533497": {
+    status: "packing",
+    service: "ParcelPath",
+    from: "St. John's, NL, Canada",
+    to: "Abbotsford, BC, Canada",
+    address: "27776 Nathan Pl Abbotsford BC V4X 2G4",
+    eta: "15–17 calendar days",
+    weight: "1.8 lbs",
+    pieces: 1,
+      events: [
+        ["Sep 14, 2026 · ", "Label created - shipment information received"        ],
+        ["Sep 14, 2026 · ", "Awaiting for sender’s confirmation"              ]
+      ]
   }
 };
